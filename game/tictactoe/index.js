@@ -12,6 +12,9 @@ window.addEventListener('DOMContentLoaded', () => {
     const PLAYERO_WON = 'PLAYERO_WON';
     const TIE = 'TIE';
 
+    var music = document.getElementById("music");  
+    music.play();
+
 
     /*
         Indexes within the board
