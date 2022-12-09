@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="scaffolded-by" content="https://github.com/dart-lang/stagehand">
+    <title>AddExternalServer</title>
+    <script defer src="main.js"></script>
+    <script defer src="main.dart.js"></script>
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div style="text-align: center;">
+    <div class="title">AddExternalServer</div>
+    <div class="subTitle">for Minecraft Bedrock Edition</div>
+    <p class="descriptionText">外部サーバーを追加するURLを生成します</p>
+    <hr>
+
+    <div>
+        <div class="coverInput"><label for="name"></label> <input id="name" type="text" placeholder="name"></div>
+        <div class="coverInput"><label for="ip"></label> <input id="ip" type="text" placeholder="ip"></div>
+        <div class="coverInput"><label for="port"></label> <input id="port" type="text" placeholder="port"></div>
+    </div>
+    <a id="generateButton" class="button" style="width: 9%;margin-bottom: 20px">生成</a>
+
+    <br>
+    <table  class="result">
+        <tr>
+            <td><a id="copyUrlTextButton" class="button" style="display: none">コピー</a></td>
+            <td><label for="urlText"></label><textarea id="urlText" style="display: none"></textarea></td>
+        </tr>
+    </table>
+
+    <br>
+    <table  class="result">
+        <tr>
+            <td><a id="copyRedirectUrlTextButton" class="button" style="display: none">コピー</a></td>
+            <td><label for="redirectUrlText"></label><textarea id="redirectUrlText" style="display: none"></textarea></td>
+        </tr>
+    </table>
+</div>
+
+
+</body>
+</html>
